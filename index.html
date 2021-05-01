@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ascii webview</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta name="mobile-web-app-capable" content="yes" />
+  </head>
+  <body>
+    <h1>ASCII WEBVIEW</h1>
+    <h3 id="info">IMPORTANT ! To use this page you must enable your camera</h3>
+
+    <div id="notSupported">
+      <h3>Your browser does not support the Camera API.</h3>
+      <img src="images/fail.png" align="center" />
+    </div>
+
+    <pre id="ascii"></pre>
+    <button id="button">start</button>
+
+    <a
+      href="https://github.com/calvetalex/ascii-camera-online"
+      id="github"
+      target="_blank"
+    >
+      View on GitHub
+    </a>
+
+    <script src="script/camera.js"></script>
+    <script src="script/ascii.js"></script>
+    <script src="script/app.js"></script>
+  </body>
+</html>
